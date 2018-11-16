@@ -1,0 +1,9 @@
+#about-us {
+    background-color: cadetblue;
+}
+#square1 {
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    display: inline-flex;
+}
