@@ -1,34 +1,144 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    background-color: aliceblue;
+}
+
+nav, section {
+    padding: 10px;
+}
+
+#menu {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a.about-us {
+    color: coral;
+      padding: 12px;
+}
+
+a.about-us:hover {
+  color: brown;  
+}
+
+a.skills {
+    color: darkgoldenrod;
+      padding: 12px;
+}
+
+a.skills:hover {
+    color: yellow;
+}
+
+a.portfolio {
+    color:blueviolet;
+      padding: 12px;
+}
+
+a.portfolio:hover {
+    color: palevioletred;
+}
+
+a.contact {
+    color:darkslateblue;
+      padding: 12px;
+}
+
+a.contact:hover {
+    color: dodgerblue;
+}
+
 #about-us {
     background-color: cadetblue;
 }
-#square1 {
-    background-color: beige;
-    height: 200px;
-    width: 200px;
-    display: inline-flex;
-}
-#square2 {
-    background-color: #000000;
-    height: 200px;
-    width: 200px;
-    display: inline-flex;
-}
-#square3 {
-    background-color: #ccc;
-    height: 200px;
-    width: 200px;
-    display: inline-flex;
-}
-#square4 {
-    background-color: #053c04;
-    height: 200px;
-    width: 200px;
-    display: inline-flex;
-}
+
 div.square {
-    background-color: aquamarine;
     height: 200px;
     width: 200px;
-    border-style: solid;
-    border-color: #0000ff;
+    display: inline-flex;
+    margin: 2px;
+}
+
+#skills1 {
+    background-color: beige;
+}
+
+#skills2 {
+    background-color: #000000;
+}
+
+#skills3  {
+    background-color: #ccc;
+}
+
+#skills4 {
+    background-color: #053c04;
+}
+
+#portfolio1  {
+    background-color: #fff;
+    border: 2px solid red;
+    display: block;
+}
+
+#portfolio2  {
+    background-color: #fff;
+    border: 2px solid blue;
+    display: block;
+}
+
+
+#portfolio3  {
+    background-color: #fff;
+    border: 2px solid green;
+    display: block;
+}
+
+form {
+    padding-top: 20px;
+}
+
+input {
+    width: 150px;
+    height: 22px;
+    margin-bottom: 8px;
+    padding: 4px; 
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 150px;
+    height: 80px;
+    padding: 4px; 
+    border: 1px solid #ccc;
+}
+
+.button {
+    background-color: cornflowerblue;
+    height: 36px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color:darkcyan;
+    height: 36px;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+}
+
+p.adres {
+    display: inline;
+    line-height: 24px;
 }
